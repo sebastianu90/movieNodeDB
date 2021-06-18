@@ -14,6 +14,6 @@ const movieSchema = mongoose.Schema(
   { versionKey: false }
 );
 
-const movieModel = mongoose.model("movie", movieSchema);
+const movieModel = mongoose.model("movies", movieSchema);
 
 module.exports = movieModel;
